@@ -1,0 +1,9 @@
+{
+  "_meta": {
+    "version": "TODO: rellenar (p.ej. 17.0+c)",
+    "edition": "TODO: Community o Enterprise",
+    "description": "Plantilla. Renombra a odoo<XYZ><edition>.json y rellena las correcciones reales.",
+    "last_updated": "YYYY-MM-DD"
+  },
+  "text_replacements": {}
+}
