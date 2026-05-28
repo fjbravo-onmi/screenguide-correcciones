@@ -1,9 +1,22 @@
 {
   "_meta": {
-    "version": "TODO: rellenar (p.ej. 17.0+c)",
-    "edition": "TODO: Community o Enterprise",
-    "description": "Plantilla. Renombra a odoo<XYZ><edition>.json y rellena las correcciones reales.",
-    "last_updated": "YYYY-MM-DD"
+    "version": "19.0+e",
+    "edition": "Enterprise",
+    "description": "Correcciones de textos de UI para Odoo 19.0 Enterprise (Cash & Company).",
+    "last_updated": "2026-05-28",
+    "schema": "v2-contexto"
   },
-  "text_replacements": {}
+  "text_replacements": {
+    "Compras": "Compra",
+    "Ventas": "Venta"
+  },
+  "contextual_replacements": [],
+  "_notes": [
+    "text_replacements = correcciones GENÉRICAS (texto-en-guía -> texto-real-en-UI). Se aplican en cualquier pantalla.",
+    "contextual_replacements = correcciones con CONTEXTO. Cada entrada: {from, to, module, context, note?}.",
+    "  - module: módulo/URL de Odoo donde aplica (ej. 'purchase', 'sale', 'stock'). Vacío = cualquiera.",
+    "  - context: texto visible en la pantalla (breadcrumb/título de ventana, ej. 'Crear Proveedor'). Vacío = cualquiera.",
+    "Resolución: gana la regla MÁS específica que case con el contexto actual. Si ninguna contextual casa, se usa la genérica.",
+    "Las claves que empiezan por '_' son metadatos y el generador las ignora."
+  ]
 }
