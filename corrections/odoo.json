@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "version": "?",
+    "edition": "?",
+    "description": "Correcciones de textos de UI para Odoo ?.",
+    "last_updated": "2026-05-28"
+  },
+  "text_replacements": {
+    "Compras": "Compra"
+  }
+}
