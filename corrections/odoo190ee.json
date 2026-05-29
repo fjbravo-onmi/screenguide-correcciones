@@ -3,12 +3,13 @@
     "version": "19.0+e",
     "edition": "Enterprise",
     "description": "Correcciones de textos de UI para Odoo 19.0 Enterprise (Cash & Company).",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-05-29",
     "schema": "v2-contexto"
   },
   "text_replacements": {
     "Compras": "Compra",
-    "Ventas": "Venta"
+    "Ventas": "Venta",
+    "Punto de": "Punto de venta"
   },
   "contextual_replacements": [],
   "_notes": [
